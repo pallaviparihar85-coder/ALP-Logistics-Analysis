@@ -13,21 +13,21 @@ st.write("Welcome to my Business Analyst Project!")
 df = pd.read_csv("APL_Logistics.csv", encoding="latin1")
 
 # Dataset Preview
-st.subheader("Dataset Preview")
+st.subheader("➤ Dataset Preview")
 st.dataframe(df.head())
 
 # Dataset Information
-st.subheader("Dataset Information")
+st.subheader("➤ Dataset Information")
 st.write("Rows:", df.shape[0])
 st.write("Columns:", df.shape[1])
 
 # Statistical Summary
-st.subheader("Statistical Summary")
+st.subheader("➤ Statistical Summary")
 st.dataframe(df.describe())
 
 # Sidebar Filters
 
-st.sidebar.header("Filter Dashboard")
+st.sidebar.header("➤ Filter Dashboard")
 
 # Market Filter
 market = st.sidebar.selectbox(
@@ -105,7 +105,7 @@ filtered_df = filtered_df[
 ]
 # Revenue & Profit Overview
 
-st.header("Revenue & Profit Overview")
+st.header("1.Revenue & Profit Overview")
 
 # KPI Calculations
 total_sales = filtered_df["Sales"].sum()
@@ -116,20 +116,20 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.metric(
-        label="Total Sales",
+        label="● Total Sales",
         value=f"${total_sales:,.2f}"
     )
 
 with col2:
     st.metric(
-        label="Total Profit",
+        label="● Total Profit",
         value=f"${total_profit:,.2f}"
     )
 
 
 # Margin Trend Chart
 
-st.subheader("Margin Trend Chart")
+st.subheader("● Margin Trend Chart")
 
 margin_trend = (
     filtered_df.groupby("Market")["Order Item Profit Ratio"]
@@ -147,9 +147,9 @@ fig = px.line(
 
 st.plotly_chart(fig, use_container_width=True)
 
-st.header("👥 Customer Value Dashboard")
+st.header("2. Customer Value Dashboard")
 
-st.subheader("Top 10 Customers by Profit")
+st.subheader("● Top 10 Customers by Profit")
 
 top_customers = (
     filtered_df.groupby("Customer Id")["Order Profit Per Order"]
@@ -169,7 +169,7 @@ fig = px.bar(
 
 st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("Bottom 10 Customers by Profit")
+st.subheader("● Bottom 10 Customers by Profit")
 
 bottom_customers = (
     filtered_df.groupby("Customer Id")["Order Profit Per Order"]
@@ -206,9 +206,9 @@ fig = px.pie(
 
 st.plotly_chart(fig, use_container_width=True)
 
-st.header("Product & Category Performance")
+st.header("3.Product & Category Performance")
 
-st.subheader("Product-level Margin Analysis")
+st.subheader("● Product-level Margin Analysis")
 
 product_margin = (
     filtered_df.groupby("Product Name")["Order Item Profit Ratio"]
@@ -227,7 +227,7 @@ fig = px.bar(
 
 st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("Category Profitability Heatmap")
+st.subheader("● Category Profitability Heatmap")
 
 category_profit = (
     filtered_df.groupby("Category Name")["Order Profit Per Order"]
@@ -252,9 +252,9 @@ sns.heatmap(
 
 st.pyplot(fig)
 
-st.header("Discount Impact Analyzer")
+st.header("4. Discount Impact Analyzer")
 
-st.subheader("Discount vs Margin Visualization")
+st.subheader("● Discount vs Margin Visualization")
 
 fig = px.scatter(
     filtered_df,
@@ -285,7 +285,7 @@ st.metric(
     f"{estimated_margin:.2f}"
 )
 
-st.header("Business Insights")
+st.header("➤ Business Insights")
 
 st.markdown("""
 - Total sales and profit indicate the overall business performance across different markets.
@@ -295,7 +295,7 @@ st.markdown("""
 - Higher discount rates are generally associated with lower profit margins, affecting overall profitability.
 """)
 
-st.header("Recommendations")
+st.header("➤ Recommendations")
 
 st.markdown("""
 - Focus on retaining high-profit customers through loyalty programs and personalized offers.
@@ -305,7 +305,7 @@ st.markdown("""
 - Monitor discount strategies regularly to maintain a healthy balance between sales growth and profit margins.
 """)
 
-st.header("Conclusion")
+st.header("➤ Conclusion")
 
 st.markdown("""
 This dashboard provides a comprehensive analysis of sales, profit, customer value, product performance, and discount impact. The insights help identify profitable customers, products, and categories while highlighting the effect of discounts on business performance. These findings can support data-driven decisions to improve profitability and overall business growth.
