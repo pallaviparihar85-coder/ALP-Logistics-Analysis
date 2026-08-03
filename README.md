@@ -161,7 +161,9 @@ ALP-Logistics-Analysis
 
 ##  Dashboard Preview
 
-Dashboard screenshot will be added after deployment.
+## Dashboard Preview
+
+![Dashboard Preview](dashboard_preview.png)
 
 ---
 
