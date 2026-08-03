@@ -1,12 +1,12 @@
 # 📦 ALP Logistics Analysis Dashboard
 
-## 📌 Project Overview
+##  Project Overview
 
 The ALP Logistics Analysis Dashboard is an interactive Business Intelligence project developed using Python and Streamlit. The dashboard analyzes logistics and supply chain data to evaluate sales performance, profitability, customer value, product performance, and the impact of discounts on profit margins. It provides interactive visualizations, KPIs, business insights, and recommendations to support data-driven decision-making.
 
 ---
 
-## ❗ Problem Statement
+##  Problem Statement
 
 Despite having detailed order and sales data, the organization lacks:
 
@@ -18,7 +18,7 @@ Despite having detailed order and sales data, the organization lacks:
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Analyze sales and profit performance across different markets.
 - Identify high-value and low-value customers.
@@ -29,7 +29,7 @@ Despite having detailed order and sales data, the organization lacks:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - Python
 - Streamlit
@@ -44,7 +44,7 @@ Despite having detailed order and sales data, the organization lacks:
 
 ---
 
-## 📂 Dataset Information
+##  Dataset Information
 
 The dataset contains logistics and supply chain information including:
 
@@ -61,9 +61,9 @@ The dataset contains logistics and supply chain information including:
 
 ---
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
-### 🔍 Interactive Filters
+###  Interactive Filters
 
 - Market Filter
 - Order Region Filter
@@ -72,29 +72,29 @@ The dataset contains logistics and supply chain information including:
 - Product Filter
 - Discount Rate Slider
 
-### 📈 Revenue & Profit Overview
+###  Revenue & Profit Overview
 
 - Total Sales KPI
 - Total Profit KPI
 - Margin Trend by Market
 
-### 👥 Customer Value Dashboard
+###  Customer Value Dashboard
 
 - Top 10 Customers by Profit
 - Bottom 10 Customers by Profit
 - Customer Segment Contribution
 
-### 📦 Product & Category Performance
+###  Product & Category Performance
 
 - Top 10 Products by Profit Margin
 - Category Profitability Heatmap
 
-### 💸 Discount Impact Analyzer
+###  Discount Impact Analyzer
 
 - Discount vs Profit Margin Analysis
 - What-if Discount Scenario
 
-### 📌 Business Intelligence
+###  Business Intelligence
 
 - Business Insights
 - Business Recommendations
@@ -102,7 +102,7 @@ The dataset contains logistics and supply chain information including:
 
 ---
 
-## 💡 Key Business Insights
+##  Key Business Insights
 
 - Sales and profitability vary across different markets.
 - A small group of customers contributes the majority of business profit.
@@ -113,7 +113,7 @@ The dataset contains logistics and supply chain information including:
 
 ---
 
-## ✅ Business Recommendations
+##  Business Recommendations
 
 - Retain high-value customers through loyalty programs.
 - Review pricing strategies for low-profit products.
@@ -123,7 +123,7 @@ The dataset contains logistics and supply chain information including:
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### Clone the Repository
 
@@ -145,7 +145,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 ALP-Logistics-Analysis
@@ -159,13 +159,13 @@ ALP-Logistics-Analysis
 
 ---
 
-## 📷 Dashboard Preview
+##  Dashboard Preview
 
 Dashboard screenshot will be added after deployment.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Pallavi Parihar**
 
