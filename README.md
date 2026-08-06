@@ -123,7 +123,7 @@ The dataset contains logistics and supply chain information including:
 
 ---
 
-##  How to Run the Project
+## How to Run the Project
 
 ### Clone the Repository
 
@@ -142,8 +142,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
----
 
 ##  Project Structure
 
