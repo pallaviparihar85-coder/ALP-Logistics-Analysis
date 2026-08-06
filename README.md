@@ -159,14 +159,6 @@ ALP-Logistics-Analysis
 
 ---
 
-##  Dashboard Preview
-
-## Dashboard Preview
-
-![Dashboard Preview](dashboard_preview.png)
-
----
-
 ##  Author
 
 **Pallavi Parihar**
