@@ -123,25 +123,6 @@ The dataset contains logistics and supply chain information including:
 
 ---
 
-## How to Run the Project
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/pallaviparihar85-coder/APL-Logistics-Analysis.git
-```
-
-### Install Required Libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run the Streamlit Application
-
-```bash
-streamlit run app.py
-```
 
 ##  Project Structure
 
