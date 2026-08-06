@@ -6,7 +6,7 @@ import plotly.express as px
 import seaborn as sns
 
 # Title
-st.title("📦 ALP Logistics Analysis Dashboard")
+st.title("📦 APL Logistics Analysis Dashboard")
 st.write("Welcome to my Business Analyst Project!")
 
 # Read Dataset
