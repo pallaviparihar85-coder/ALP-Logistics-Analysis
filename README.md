@@ -128,7 +128,7 @@ The dataset contains logistics and supply chain information including:
 ### Clone the Repository
 
 ```bash
-git clone <https://github.com/pallaviparihar85-coder/APL-Logistics-Analysis>
+git clone https://github.com/pallaviparihar85-coder/APL-Logistics-Analysis.git
 ```
 
 ### Install Required Libraries
