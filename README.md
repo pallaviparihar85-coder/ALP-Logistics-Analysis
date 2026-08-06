@@ -1,4 +1,4 @@
-<img width="707" height="362" alt="image" src="https://github.com/user-attachments/assets/11dbdaef-239b-4da2-bc89-3e091f9ebf5d" /># 📦 APL Logistics Analysis Dashboard
+# 📦 APL Logistics Analysis Dashboard
 
 ##  Project Overview
 
