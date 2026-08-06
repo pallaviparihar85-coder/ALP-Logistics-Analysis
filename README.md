@@ -1,8 +1,8 @@
-# 📦 ALP Logistics Analysis Dashboard
+# 📦 APL Logistics Analysis Dashboard
 
 ##  Project Overview
 
-The ALP Logistics Analysis Dashboard is an interactive Business Intelligence project developed using Python and Streamlit. The dashboard analyzes logistics and supply chain data to evaluate sales performance, profitability, customer value, product performance, and the impact of discounts on profit margins. It provides interactive visualizations, KPIs, business insights, and recommendations to support data-driven decision-making.
+The APL Logistics Analysis Dashboard is an interactive Business Intelligence project developed using Python and Streamlit. The dashboard analyzes logistics and supply chain data to evaluate sales performance, profitability, customer value, product performance, and the impact of discounts on profit margins. It provides interactive visualizations, KPIs, business insights, and recommendations to support data-driven decision-making.
 
 ---
 
@@ -152,7 +152,7 @@ ALP-Logistics-Analysis
 │
 ├── app.py
 ├── requirements.txt
-├── ALP_Logistics_Analysis (1).ipynb
+├── APL_Logistics_Analysis.ipynb
 ├── APL_Logistics.csv
 └── README.md
 ```
